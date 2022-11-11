@@ -20,6 +20,8 @@ import About from './Components/About';
 import E_Store from './Components/E_Store';
 import { Provider } from 'react-redux';
 import { store } from './Redux/store.js';
+import Editpage from './Components/Editpage';
+import AddProduct from './Components/AddProduct';
 
 
 
@@ -66,6 +68,16 @@ const router = createBrowserRouter([
   {
     path: "/e-store",
     element: <E_Store/>,
+   
+  },
+  {
+    path: "/add_product",
+    element: <AddProduct/>,
+   
+  },
+  {
+    path: "/edit_product",
+    element: <Editpage/>,
    
   },
 
