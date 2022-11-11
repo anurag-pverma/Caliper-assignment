@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
-
+import { ChakraProvider } from '@chakra-ui/react'
 
 import {
   createBrowserRouter,
@@ -18,8 +18,9 @@ import Contact from './Components/Contact';
 import Blog from './Components/Blog';
 import About from './Components/About';
 import E_Store from './Components/E_Store';
-// import { Provider } from 'react-redux';
-// import { store } from './Redux/store';
+import { Provider } from 'react-redux';
+import { store } from './Redux/store.js';
+
 
 
 const router = createBrowserRouter([
@@ -68,19 +69,18 @@ const router = createBrowserRouter([
    
   },
 
+
 ]);
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
    
-    {/* <Provider store={store}> */}
-    
-
+    <Provider store={store}>
+    <ChakraProvider>
     <RouterProvider router={router} />
-  
-
-    {/* </Provider> */}
+    </ChakraProvider>
+    </Provider>
 
   </React.StrictMode>
 );

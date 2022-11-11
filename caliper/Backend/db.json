@@ -1,0 +1,68 @@
+{
+    "products": [
+    {
+    "id": 1,
+    "name": "Plant1",
+    "type": "typ1",
+    "rating": 4.5,
+    "number_of_votes": 588,
+    "price_starts_from": 925,
+    "image": "https://images.unsplash.com/photo-1592863690193-648fb871e554?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8aHlkcm9wb25pY3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+    "id": 2,
+    "name": "Plant2",
+    "type": "type2",
+    "rating": 3,
+    "number_of_votes": 572,
+    "price_starts_from": 100,
+    "image": "https://plus.unsplash.com/premium_photo-1661635035707-2360e50849ac?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTN8fGh5ZHJvcG9uaWNzfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+    "id": 3,
+    "name": "plant3",
+    "type": "type3",
+    "rating": 2,
+    "number_of_votes": 189,
+    "price_starts_from": 230,
+    "image": "https://images.unsplash.com/photo-1504524113458-1a56028c190c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8aHlkcm9wb25pY3N8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+    "id": 4,
+    "name": "Plant4",
+    "type": "type4",
+    "rating": 1.5,
+    "number_of_votes": 643,
+    "price_starts_from": 210,
+    "image": "https://images.unsplash.com/photo-1627186130742-e0c1119a8d79?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NHx8aHlkcm9wb25pY3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+    "id": 5,
+    "name": "Plant5",
+    "type": "type5",
+    "rating": 5,
+    "number_of_votes": 639,
+    "price_starts_from": 975,
+    "image": "https://images.unsplash.com/photo-1646573235005-3dc012e95fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGh5ZHJvcG9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+    "id": 6,
+    "name": "Plant5",
+    "type": "type5",
+    "rating": 5,
+    "number_of_votes": 639,
+    "price_starts_from": 975,
+    "image": "https://images.unsplash.com/photo-1646573235005-3dc012e95fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGh5ZHJvcG9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    },
+    {
+    "id": 7,
+    "name": "Plant5",
+    "type": "type5",
+    "rating": 5,
+    "number_of_votes": 639,
+    "price_starts_from": 975,
+    "image": "https://images.unsplash.com/photo-1646573235005-3dc012e95fbe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fGh5ZHJvcG9uaWN8ZW58MHx8MHx8&auto=format&fit=crop&w=800&q=60"
+    }
+    ]
+    
+    }

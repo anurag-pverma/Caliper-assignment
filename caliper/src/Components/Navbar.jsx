@@ -9,14 +9,13 @@ import { AiOutlineInstagram, AiOutlineMail } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { TfiYoutube } from "react-icons/tfi";
 import { IoCallOutline } from "react-icons/io5";
-import Home from "./Home";
 
 function MyNavbar() {
   return (
     <>
       <header className={styles.head}>
-        <div style={{ display: "flex", marginLeft:"1100px" , }}>
-          <a  className={styles.lnd1} href="#">
+        <div style={{ display: "flex", marginLeft: "1100px" }}>
+          <a className={styles.lnd1} href="#">
             <TfiYoutube />
           </a>
           <a className={styles.lnd1} href="#">
@@ -25,12 +24,12 @@ function MyNavbar() {
           <a className={styles.lnd1} href="#">
             <AiOutlineInstagram />
           </a>
-          <a  className={styles.lnd1}href="#">
+          <a className={styles.lnd1} href="#">
             <RiFacebookLine />
           </a>
         </div>
 
-        <div  style={{display:"flex", color:"white", }}>
+        <div style={{ display: "flex", color: "white" }}>
           <div className={styles.lnd}>
             <IoCallOutline />
             info@briohydroponics.com
@@ -44,7 +43,9 @@ function MyNavbar() {
 
       <Navbar id={styles.parent} expand="lg">
         <Container>
-          <Navbar.Brand href="#home"  id={styles.logo}>Acme Fresh</Navbar.Brand>
+          <Navbar.Brand href="#home" id={styles.logo}>
+            Acme Fresh
+          </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -58,21 +59,23 @@ function MyNavbar() {
               <Link className={styles.lin} to="/home">
                 Home
               </Link>
+              <Link className={styles.lin} to="/product">
+                Product
+              </Link>
+              <Link className={styles.lin} to="/services">
+                Check Yor Cart
+              </Link>
               <Link className={styles.lin} to="/about">
                 About
               </Link>
               <Link className={styles.lin} to="/contact">
                 Contact
               </Link>
-              <Link className={styles.lin} to="/services">
-                Our Services
-              </Link>
+
               <Link className={styles.lin} to="/blog">
                 Blog
               </Link>
-              <Link className={styles.lin} to="/product">
-                Product
-              </Link>
+
               <Link className={styles.lin} to="/training">
                 Traingin
               </Link>
@@ -83,7 +86,6 @@ function MyNavbar() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <Home/>
     </>
   );
 }

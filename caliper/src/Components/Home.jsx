@@ -3,11 +3,13 @@ import Carousel from "react-bootstrap/Carousel";
 import styles from "./Styles/Home.module.css";
 
 import { useNavigate } from "react-router-dom";
+import MyNavbar from "./Navbar";
 
 function Home() {
   const navigate = useNavigate();
   return (
     <>
+      <MyNavbar />
       <Carousel className={styles.carouseli}>
         <Carousel.Item interval={900}>
           <img
@@ -143,11 +145,11 @@ function Home() {
       </div>
 
       <div id={styles.thirdcontainer}>
-        <div>
+        <div className={styles.flower}>
           <img
             src="https://ponicgreens.com/images/service3.png"
             alt=""
-            height={"700px"}
+            height={"400px"}
           />
         </div>
 
@@ -169,13 +171,22 @@ function Home() {
                 Hydroponic Gardening is Best clean and Very easy, It requiring
                 very little effort nutrients and maintenance
               </p>
-              <img src="https://ponicgreens.com/images/service1.jpg" alt=""  width={"200px"}/>
+              <img
+                src="https://ponicgreens.com/images/service1.jpg"
+                alt=""
+                width={"200px"}
+              />
             </div>
             <div className={styles.innercontainer}>
               <p>
-              Our Home Systems are fun and a Great learning tool. You Can Grow Way you want where you want & how you want.
+                Our Home Systems are fun and a Great learning tool. You Can Grow
+                Way you want where you want & how you want.
               </p>
-              <img src="https://ponicgreens.com/images/service2.jpg " alt=""  width={"200px"}/>
+              <img
+                src="https://ponicgreens.com/images/service2.jpg "
+                alt=""
+                width={"200px"}
+              />
             </div>
           </div>
         </div>
