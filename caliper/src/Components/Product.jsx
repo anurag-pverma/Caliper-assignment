@@ -15,18 +15,18 @@ const Product = () => {
   const dispatch=useDispatch();
   const productList=useSelector((store)=>store.reducer.products);
   console.log(productList);
-  // const [searchParams]=useSearchParams();
+  const [searchParams]=useSearchParams();
 
-  // const compareFunction =(a,b)=>{
-  //   let getSortBy =searchParams.get("sortBy")
-  //   if(getSortBy==='asc'){
-  //     return Number(a.price)-Number(b.price);
-  //   }
-  //   else if(getSortBy==="desc"){
-  //     return Number(b.price)-Number(a.price);
-  //   }
-  //   return 0;
-  // };
+  const compareFunction =(a,b)=>{
+    let getSortBy =searchParams.get("sortBy")
+    if(getSortBy==='asc'){
+      return Number(a.price)-Number(b.price);
+    }
+    else if(getSortBy==="desc"){
+      return Number(b.price)-Number(a.price);
+    }
+    return 0;
+  };
 
   useEffect(()=>{
     if(productList?.length===0){
@@ -35,13 +35,6 @@ const Product = () => {
   },[dispatch,productList?.length]);
 
 
-  // const handleCart = (e) => {
-  //   let object = {
-  //     ...e,
-  //     qty: 1,
-  //   };
-  //   dispatch(addToCart(object));
-  // };
   
   return (
     <>
