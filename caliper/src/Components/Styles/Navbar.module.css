@@ -1,0 +1,51 @@
+#parent{
+    
+    height: 100px;
+}
+
+.head{
+    height: 50px;
+    background-color: #7ab12b;
+}
+.lnd{
+    margin-right: 20px;
+    margin-left: 30px;
+
+}
+#logo{
+    font-size: 20px;
+    color:  #7ab12b;
+    font-weight: bolder;
+}
+.lnd1{
+    margin-right: 20px;
+    
+}
+.socilLinks{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+   
+}
+.socilLinks>div{
+    display: flex;
+    color: white;
+}
+#navlinks{
+    
+   margin: auto;
+    align-items: center;
+ 
+    
+}
+.lin{
+   margin-left: 50px;
+   text-decoration: none;
+   font-size: large;
+   font-weight: 500;
+   color: black;
+
+}

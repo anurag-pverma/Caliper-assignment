@@ -1,0 +1,130 @@
+.creouselHeading{
+    color: white;
+    height: 80px;
+    background-color:  #7ab12b;
+    width: 400px;
+   
+
+}
+p{
+    font-weight: bold;
+}
+
+.containerblog{
+    width: 300px ;
+    margin-left: 100px;
+  
+    list-style: none;
+    color: gray;
+}
+
+.containerblog>p{
+color: goldenrod;
+font-size: 24px;
+}
+.containerblog>button{
+color: #7ab12b;
+padding: 10px 30px 10px 30px;
+border: 2px solid #7ab12b;
+font-weight: bold;
+background-color: white;
+margin-top: 10px;
+}
+.containerblog>button:hover{
+    background-color: #7ab12b;
+    color: white;
+}
+.containerblog>h2{
+color: rgb(26, 25, 23);
+font-size: 30px;
+font-weight: bold;
+margin-bottom: 50px;
+}
+
+
+#minicrousel{
+
+   
+    height: 300px;
+    width: 350px;
+    margin-left: 50px;
+
+}
+
+#minicrousel>div>h4:hover{
+
+   color: #7ab12b;
+ 
+
+}
+#minicrousel>div>button{
+
+   border: none;
+   background-color: white;
+   font-weight: bold;
+ 
+
+}
+#minicrousel>div>button:hover{
+
+ color: #7ab12b;
+ 
+
+}
+
+#midcontainer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto;
+    margin-top: 70px;
+}
+
+.thirdbloag{
+    
+    width: 350px;
+    
+}
+
+.thirdbloag>h4{
+    margin-top: 50px;
+}
+.thirdbloag>h4:hover{
+    color: #7ab12b;
+}
+#thirdcontainer{
+    display: flex;
+    height: 600px;
+    width: 100%;
+    background-color: #fff25b;
+    margin-top: 150px;
+}
+
+.mainsumry{
+    width: 600px;
+}
+.mainsumry>summary{
+    font-size: 23px;
+    list-style: none;
+    margin-top: 25px;
+}
+.mainsumry>button{
+  padding: 10px 25px 10px 25px;
+  background-color: rgb(58, 20, 2, 0.5);
+  font-weight: bold;
+  border: none;
+}
+.mainsumry>button:hover{
+
+    background-color: #7ab12b;
+    color: white;
+}
+
+.dividercontainer{
+    display: flex;
+    margin-top: 50px;
+    font-weight: normal;
+}
+.innercontainer{
+    width: 200px;
+    margin-right: 50px;
+}
