@@ -76,7 +76,7 @@ const router = createBrowserRouter([
    
   },
   {
-    path: "/edit_product",
+    path: "/edit/:id",
     element: <Editpage/>,
    
   },

@@ -63,7 +63,7 @@ function MyNavbar() {
                 Product
               </Link>
               <Link className={styles.lin} to="/services">
-                Check Yor Cart
+                Sell Your Products
               </Link>
               <Link className={styles.lin} to="/about">
                 About
